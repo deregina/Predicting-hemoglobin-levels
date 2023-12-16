@@ -13,11 +13,10 @@ Anemia is a condition that develops when your blood produces a lower-than-normal
 ### Objectives (research hypotheses)
 > Hypothesis 1  
 **Older males have a higher possibility of low hemoglobin levels.**
-  
 > Hypothesis 2  
   **People who smoke and drink have a higher possibility of low hemoglobin levels.**
 
-## Data Description 
+### Data Description 
 > Data source
 **[Kaggel: Smoking and Drinking Dataset with body signal]** https://www.kaggle.com/datasets/sooyoungher/smoking-drinking-dataset/data  
 This dataset is collected from National Health Insurance Service in Korea.  
@@ -58,7 +57,6 @@ This implies that hypothesis 2 may not be true.
     - Quantile regression was used because the independant variable and dependant variable can have different linear line depending on the quantile.
  
 ## Model Evaluation and Selection 
-
 - Linear Regression  
 If there are linear relationships between dependent variable(hemoglobin) and independent variables, the linear regression model can predict hemoglobin quite well.  
 - Ridge and Lasso  
